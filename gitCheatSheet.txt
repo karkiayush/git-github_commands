@@ -1,2 +1,17 @@
-git init => to initialize 
-ls -lart => shows all of the hidden folders
+(1) git init => to initialize 
+(2) git remote add origin url => to add the origin i.e. to make sure that where the folder is     going to be stored   
+(3) git status => to check the status of the file
+(4) ls -lart => shows all of the hidden folders
+(5)
+(6)
+(7)
+(8)
+(9)
+
+
+                Different modes/stages in Git
+Untracked => this means the files is not tracked with the help of git. So if we wanna track the file then we will send the file to staging area.
+
+Staging area => It is like the field which contains all of the things to be commited. We can understand commit as the indication that tells the git and the respective repository that something is going to be pushed in the repository.
+
+ FILE AREA   COMMIT
