@@ -1,0 +1,2 @@
+git init => to initialize 
+ls -lart => shows all of the hidden folders
