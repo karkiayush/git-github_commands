@@ -15,3 +15,12 @@ Untracked => this means the files is not tracked with the help of git. So if we 
 Staging area => It is like the field which contains all of the things to be commited. We can understand commit as the indication that tells the git and the respective repository that something is going to be pushed in the repository.
 
  FILE AREA   COMMIT
+
+
+echo "# codeherne" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/karkiayush/codeherne.git
+git push -u origin main
